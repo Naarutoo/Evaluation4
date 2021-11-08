@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameshowing"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:paddingTop="10dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/emailShowing"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dobShowing" />
+
+    <TextView
+        android:id="@+id/dobShowing"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="DOB"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneShowing" />
+
+    <TextView
+        android:id="@+id/phoneShowing"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="Phone"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryShowing" />
+
+    <TextView
+        android:id="@+id/countryShowing"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="Country"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cityShowing" />
+
+    <TextView
+        android:id="@+id/cityShowing"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="City"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderShowing" />
+
+    <TextView
+        android:id="@+id/genderShowing"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="Gender"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameshowing" />
+
+    <TextView
+        android:id="@+id/CountryTv"
+        android:layout_width="125dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="Country"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CityTv" />
+
+    <TextView
+        android:id="@+id/EmailTv"
+        android:layout_width="125dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="Email"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dobTv" />
+
+    <TextView
+        android:id="@+id/dobTv"
+        android:layout_width="125dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="D.O.B"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneTv" />
+
+    <TextView
+        android:id="@+id/PhoneTv"
+        android:layout_width="125dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="Phone"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CountryTv" />
+
+    <TextView
+        android:id="@+id/CityTv"
+        android:layout_width="125dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="City"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GenderTv" />
+
+    <TextView
+        android:id="@+id/GenderTv"
+        android:layout_width="125dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:text="Gender"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTv" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+       android:src="@drawable/profileee" />
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="125dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:paddingTop="10dp"
+        android:text="Name"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="76dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nameshowing" type="id" />
+    <item name="imageView" type="id" />
+    <item name="emailShowing" type="id" />
+    <item name="dobShowing" type="id" />
+    <item name="phoneShowing" type="id" />
+    <item name="countryShowing" type="id" />
+    <item name="cityShowing" type="id" />
+    <item name="genderShowing" type="id" />
+    <item name="CountryTv" type="id" />
+    <item name="CityTv" type="id" />
+    <item name="EmailTv" type="id" />
+    <item name="dobTv" type="id" />
+    <item name="PhoneTv" type="id" />
+    <item name="GenderTv" type="id" />
+    <item name="nameTv" type="id" />
+    <item name="nextBtn" type="id" />
+</resources>
